@@ -1,3 +1,9 @@
+/* ==UserStyle==
+@name           Scryfall Dark Mode
+@namespace      https://userstyles.world/style/2209/scryfall-dark-mode
+@version        1.0.0
+==/UserStyle== */
+
 @-moz-document domain("scryfall.com") {
 /*Background gradient to match home page*/
 .main{background:linear-gradient(to bottom, #1d1c25, #431e3f)}
