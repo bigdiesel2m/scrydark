@@ -1,9 +1,3 @@
-/* ==UserStyle==
-@name           Scryfall Dark Mode
-@namespace      https://userstyles.world/style/2209/scryfall-dark-mode
-@version        1.0.0
-==/UserStyle== */
-
 @-moz-document domain("scryfall.com") {
 /*Background gradient to match home page*/
 .main{background:linear-gradient(to bottom, #1d1c25, #431e3f)}
@@ -16,6 +10,7 @@
 .card-text-title em{color:#FFF}
 .card-text-artist a{color:#FFF}
 .card-text-watermark a{color:#FFF}
+.card-text-flavor-name{color:rgba(255,255,255,0.7)}
 .rulings a{color:#FFF}
 
 /*Search page adjustments*/
@@ -44,6 +39,10 @@
 .reference-block{background:transparent}
 .reference-block h2{color:#FFF}
 
+/*Regex page adjustments*/
+.prose h2{color:#FFF}
+.prose th{color:#FFF}
+    
 /*FAQ page adjustments*/
 .prose h1{color:#FFF}
 .prose{color:#FFF}
